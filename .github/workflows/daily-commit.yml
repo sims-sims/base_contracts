@@ -1,8 +1,7 @@
 name: Daily commit (auto)
 
 on:
-permissions:
-  contents: write
+
   schedule:
     - cron: '0 0 * * *'   # runs daily at 00:00 UTC
   workflow_dispatch:
